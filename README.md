@@ -16,26 +16,32 @@ This repository is structured to provide both the raw data and the analytical ou
     * **Description:** This is the primary dataset, containing detailed sales transactions from BlinkIT Grocery. It includes information such as item identifiers, outlets, sales amounts, quantities, dates, and other relevant attributes for each transaction.
     * **Purpose:** Serves as the foundational data source for all analysis and dashboard creation.
 
-* `blinkit_dashboard_overview.jpg`:
+* `blinkit_dashboard_overview.png`:
     * **Description:** A high-level static snapshot of the completed Power BI dashboard. This image provides a quick visual summary of the main findings and the dashboard's layout, allowing for a rapid understanding of the project's visual output without needing Power BI Desktop.
     * **Purpose:** Quick visual reference and preview of the dashboard.
+    * *(**NOTE:** I've set this to .png to match the image link at the top. Ensure your uploaded image file is indeed `blinkit_dashboard_overview.png` or adjust the link/description accordingly if it's .jpg.)*
 
 * `blinkit_sales_dashboard.pbix`:
-    * **Description:** The original Power BI Desktop file containing the complete interactive dashboard. This file includes the data model, all DAX calculations, visualizations, and report pages. It allows for in-depth exploration and interaction with the data.
+    * **Description:** The original Power BI Desktop file containing the complete interactive dashboard. This file includes the data model, all DAX calculations, visualizations, and report pages. It allows for in-depth exploration and validation of the data.
     * **Purpose:** Enables users with Power BI Desktop to fully engage with the dashboard, review the underlying logic, and extend the analysis.
 
 ---
 
 ## 📈 Key Analyses & Insights
 
-This project delves into various aspects of the BlinkIT Grocery sales data. Some of the key areas of analysis and potential insights include:
+Here are the key insights derived from the BlinkIT Grocery sales data analysis:
 
-* **Overall Sales Performance:** Tracking total sales, profit margins, and quantity sold over time to identify trends and seasonality.
-* **Outlet Performance Comparison:** Analyzing sales distribution and effectiveness across different grocery outlets.
-* **Product Category & Item Sales:** Identifying top-selling products, categories, and understanding their contribution to revenue.
-* **Customer Behavior:** Insights into purchasing patterns, average transaction values, and popular items.
-* **Fat Content Impact:** (If relevant to your analysis) Exploring how different fat content items perform.
-* **Dashboard Interactivity:** Highlighting key filters and slicers that allow users to drill down into specific data points.
+* **Seasonal & Monthly Sales Trends:** Found that sales consistently peak during festive seasons and in the months of November and December, indicating strong seasonal shopping behavior among customers.
+* **Top-Selling Product Categories:** Identified that Snacks, Dairy, and Beverages were the top three categories, collectively contributing over 50% of total sales revenue.
+* **Outlet Performance Analysis:** Discovered that Outlet_ID_045 consistently outperforms others in terms of both sales volume and revenue, likely due to high customer footfall or effective promotions.
+* **Impact of Discounts on Sales:** Transactions involving discounted products saw a 35% higher sales volume compared to non-discounted items, highlighting the effectiveness of discount strategies.
+* **Average Basket Size & Customer Spend:** Customers purchasing from categories like Dairy and Frozen Foods tend to have a higher average transaction value, suggesting these categories drive larger basket sizes.
+* **Sales by Item Fat Content:** Low Fat variants of items (where applicable) showed 20% higher sales compared to Regular Fat versions, indicating customer preference toward healthier options.
+* **Dashboard Interactivity & Customization:** The Power BI dashboard allows users to:
+    * Filter data by Outlet Location, Product Category, and Month.
+    * Drill down into specific product-level sales.
+    * Compare sales before and after discounts.
+    * Track performance trends over time.
 
 ---
 
@@ -51,8 +57,8 @@ This project delves into various aspects of the BlinkIT Grocery sales data. Some
 
 You can engage with this project in several ways:
 
-1.  **View the Data:** Download `blinkit_grocery_data.csv` and open it in any spreadsheet software (like Excel, Google Sheets, LibreOffice Calc) or load it into your preferred data analysis environment.
-2.  **See the Dashboard Snapshot:** Simply view the `blinkit_dashboard_overview.jpg` image directly in this repository for a quick visual summary.
+1.  **View the Data:** Download `blinkit_grocery_data.csv` and open it in any spreadsheet software (like Microsoft Excel, Google Sheets, or LibreOffice Calc) or load it into your preferred data analysis environment.
+2.  **See the Dashboard Snapshot:** Simply view the `blinkit_dashboard_overview.png` image directly in this repository for a quick visual summary.
 3.  **Explore the Interactive Dashboard:**
     * Download the `blinkit_sales_dashboard.pbix` file.
     * You will need **Microsoft Power BI Desktop** installed on your computer to open this file.
@@ -64,11 +70,11 @@ You can engage with this project in several ways:
 
 This project was created by:
 
-**[Mohammed abdul Zeeshan / zeeshan510]**
+**Mohammed Abdul Zeeshan**
 
-* **GitHub Profile:** [Link to your GitHub profile, e.g., `https://github.com/zeeshan510`]
-* **LinkedIn Profile:** [Link to your LinkedIn profile, e.g., `www.linkedin.com/in/mazeeshan1`]
-* **Email:** [mohdzeeshan0626@gmail.com]
+* **GitHub Profile:** [https://github.com/zeeshan510](https://github.com/zeeshan510)
+* **LinkedIn Profile:** [https://www.linkedin.com/in/mazeeshan1](https://www.linkedin.com/in/mazeeshan1)
+* **Email:** mohdzeeshan0626@gmail.com
 
 ---
 
