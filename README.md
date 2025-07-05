@@ -1,6 +1,6 @@
 # BlinkIT Grocery Sales Data Analysis & Interactive Dashboard
 
-![Dashboard Overview](blinkit_dashboard_overview.jpg)
+![Dashboard Overview](blinkit_dashboard_overview.png)
 
 ## 📊 Project Overview
 
